@@ -1,0 +1,30 @@
+# Build & IDE Artifacts
+*.iml
+.gradle/
+/local.properties
+**/local.properties
+/.idea/
+.DS_Store
+**/build/
+**/bin/
+**/obj/
+/captures
+.externalNativeBuild
+.cxx
+
+# Security & Secrets (Never commit API keys, keystores, or local pairing tokens)
+google-services.json
+**/google-services.json
+*.jks
+*.keystore
+*.p12
+*.pfx
+.env
+.env.*
+access_token.txt
+**/access_token.txt
+
+# Pre-compiled Release Binaries (Uploaded to GitHub Releases instead of Git tree)
+releases/*.exe
+releases/*.apk
+
